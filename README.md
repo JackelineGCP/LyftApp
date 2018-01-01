@@ -1,6 +1,6 @@
 ## 2. L Y F T
 
-En este proyecto desarrollé una web-app replicando del sitio de **Lift**. 
+En este proyecto desarrollé una web-app replicando del sitio de **Lift**. Para lo cual utilice el framework bootstrap. 
 
 ### Flujo de la Aplicación
 
