@@ -1,3 +1,4 @@
+/* RESET */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,4 +8,96 @@
 body {
   font-family: 'Raleway', sans-serif !important;
   color: #fff;
+}
+
+.auto{
+	background-image: url('../assets/images/auto-brillo');
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+.container-flex-row {
+	display: flex;
+	justify-content: space-between;  
+}
+
+.container-flex-column {
+  display: flex;
+	flex-direction:column;
+  justify-content: center;
+	padding: 2em;
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+.grad10 {
+  background: linear-gradient( rgb(172, 30, 219) 25%, rgb(209, 103, 241));
+}
+
+.grad70 {
+	background: linear-gradient( rgb(172, 30, 219) 65%, rgb(209, 103, 241));
+}		
+
+.buttons-register {
+	padding: 2em;
+}
+
+.signup {
+ background: green;
+}
+
+.title {
+	padding: 0.5em;
+	margin-bottom: 1em;
+}
+
+.btn-success {
+	padding: 0.5em;
+	margin: 0.3em;
+	margin-bottom: 3em;
+}
+
+.logo, .logo-pink{
+	margin-top: 0;
+	height: 171px;
+	width: 186px;
+}
+
+.sub-title{
+	font-size: 18px;
+	padding: 1px;
+}
+.left{
+	padding-left: 10px;
+}
+
+.responsive-img{
+	width: 100%;
+	height: 100%;
+}
+.inline{
+	display: inline-block;
+}
+
+.btn-success{
+	width: 10%;
+}
+.btn-succ{
+	width: 100%;
+}
+
+.min-width {
+  min-width: 0px;
+}
+
+.dropdown-content li {
+  min-height: 30px;
+  margin-top: 5px;
+}
+
+.gif{
+	height:100% ;
+	width: 100%;
 }
